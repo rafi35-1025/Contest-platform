@@ -1,2 +1,10 @@
-[InternetShortcut]
-URL=https://github.com/durontoalim/ContestPlatform/commit/6269f7ee2f87b615ce006daa1128b1bda751b81b?short_path=b335630#diff-cdf4a0d8ce8c40edfb73e84f9a3b606df759c61f86b17f7696366064c61cdfed
+package main.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import main.entity.problemSetub;
+@Repository
+public interface problemListRepository extends JpaRepository<problemSetub,Long> {
+
+}
