@@ -1,2 +1,20 @@
-[InternetShortcut]
-URL=https://github.com/durontoalim/ContestPlatform/commit/6269f7ee2f87b615ce006daa1128b1bda751b81b?short_path=b335630#diff-5c29f01c36feae36e8407889f3bbcadd01b1fcc99beca212d0848f7ac90f8673
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Submission List</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<body>
+	<div th:insert="NavBar.html :: NavBar"></div>
+	
+	<div class="p-5 text-center">
+		<button type="button" class="btn btn-success center mt-5">Accepted</button>
+	</div>
+	<!--Bootstrap-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
